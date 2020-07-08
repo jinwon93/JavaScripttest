@@ -1,6 +1,10 @@
 body {
-    background:peru;
+    background:#ecf0f1;
 }
 h1{
-    color:white;
+    color:#34495e;
+}
+
+.cicked{
+    color:#7f8c8d;
 }
