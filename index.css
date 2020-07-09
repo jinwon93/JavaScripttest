@@ -27,10 +27,13 @@ input::placeholder{
 input[type=text]{
     margin-bottom: 14px;
     background: none;
-    width: 20%;
     padding: 10px 10px 10px 10px;
     border: none;
     border-bottom: 2px solid skyblue;
+    transition: width 0.1s ease-in-out;
+}
+input[type=text]:focus{
+    width: 25%;
 }
 li span{
     margin-left:5px;
